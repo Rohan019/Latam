@@ -1,0 +1,12 @@
+/Base/
+/META-INF/
+/features/
+/pageObjects/
+/step_def_contact_support/
+/step_def_css_registration/
+/step_def_forget_password/
+/step_def_forget_username/
+/step_def_login/
+/step_def_missing_info/
+/step_def_resend_verification_code/
+/step_def_update/

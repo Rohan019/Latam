@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="step_def_login.Login_Valid"/>
+      <class name="step_def_resend_verification_code.resend_verification_code"/>
+      <class name="step_def_forget_password.Forget_Password"/>
+      <class name="Base.Connection"/>
+      <class name="step_def_missing_info.missingInfo"/>
+      <class name="step_def_forget_username.Forget_Username"/>
+      <class name="step_def_contact_support.contact_support"/>
+      <class name="step_def_update.Update_Info"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
